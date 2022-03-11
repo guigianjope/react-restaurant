@@ -24,7 +24,7 @@ import './Navbar.css';
           <a href='/' className='p__opensans'>Book Table</a>
         </div>
         <div className='app__navbar-smallscreen'>
-          <GiHamburgerMenu color="#fff" onClick={() => setToggleMenu(true)}/>
+          <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
 
             {toggleMenu && (
               <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
